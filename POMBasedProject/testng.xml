@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Assignment1" verbose="3" thread-count="1" parallel="tests">
+ <test name="Test Execution On Firefox">
+   <classes>
+	           
+	           
+	          			<!-- Test Execution Of Home Tab  -->     
+	         
+	          <class name="testscripts.LoginPage_Test"></class> 
+	          <class name="testscripts.HomePage_Test"></class> 
+	          
+	          			 <!-- Test Execution Of Team Tab  -->
+	          
+		        
+	
+	          
+         
+	    </classes>
+  </test>
+
+</suite>
